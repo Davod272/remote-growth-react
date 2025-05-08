@@ -26,15 +26,11 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <div className="text-3xl font-bold flex items-center">
-                <span className="text-consult-teal">CONS</span>
-                <span className="text-consult-teal relative">
-                  <span>U</span>
-                  <span className="text-consult-green absolute -right-[3px] top-0">i</span>
-                </span>
-                <span className="text-consult-teal">LT</span>
-                <span className="text-consult-gray ml-2">PARK</span>
-              </div>
+              <img 
+                src="/lovable-uploads/a88e9e9d-6d36-4a71-8e9e-621570e14e9d.png" 
+                alt="Consult Park Logo" 
+                className="h-10 sm:h-12" 
+              />
             </Link>
           </div>
 
