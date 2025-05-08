@@ -8,15 +8,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
-            <div className="text-2xl font-bold flex items-center">
-              <span className="text-white">CONS</span>
-              <span className="text-white relative">
-                <span>U</span>
-                <span className="text-consult-green absolute -right-[3px] top-0">i</span>
-              </span>
-              <span className="text-white">LT</span>
-              <span className="text-gray-300 ml-2">PARK</span>
-            </div>
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/a88e9e9d-6d36-4a71-8e9e-621570e14e9d.png" 
+                alt="Consult Park Logo" 
+                className="h-10 sm:h-12" 
+              />
+            </Link>
             <p className="mt-4 text-gray-300">
               Your strategic outsourcing partner for remote excellence.
             </p>
